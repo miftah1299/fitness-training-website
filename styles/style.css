@@ -167,13 +167,13 @@ nav li a {
 
 #btn1 {
     position: absolute;
-    bottom: 150px;
-    right: 470px;
+    bottom: 100px;
+    right: 400px;
 }
 
 #btn2 {
     position: absolute;
-    bottom: 450px;
+    bottom: 370px;
     right: 140px;
 }
 
