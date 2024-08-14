@@ -80,7 +80,6 @@
 }
 
 .nav-links {
-    /* margin-top: 50px; */
     list-style: none;
     display: flex;
     /* gap: 40px; */
@@ -126,19 +125,15 @@ nav li a {
 .banner {
     margin-left: 190px;
     margin-right: 190px;
-    /* margin: 70px 190px; */
     display: flex;
     justify-content: space-between;
-    /* align-items: baseline; */
 }
 
 .banner-text {
     margin-top: 90px;
-    /* position: absolute; */
     width: 599.05px;
     height: 440px;
     left: 190px;
-    /* top: 199px; */
     padding: 0px;
 }
 
@@ -173,7 +168,7 @@ nav li a {
 
 #btn1 {
     position: absolute;
-    bottom: 63px;
+    bottom: 100px;
     right: 470px;
 }
 
@@ -316,4 +311,59 @@ main {
     top: 80%;
     left: 40%;
     transform: translate(-80%, -20%);
+}
+
+
+
+/* -------------- FOOTER SECTION -------------- */
+.footer {
+    margin-top: 0px;
+    background: rgb(34, 34, 34);
+}
+
+.footer-container {
+    padding: 65px 190px 80px 190px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.footer-main {
+    width: 440px;
+}
+
+.footer .logo {
+    margin-top: 0px;
+}
+
+.footer-title {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.section-desc {
+    text-align: left;
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+hr {
+    margin: 0 190px 0 190px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-right {
+    padding: 35px 0px 35px 0px;
+    /* top right bottom left */
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
 }
