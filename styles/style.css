@@ -279,3 +279,41 @@ main {
 .runs-img img {
     border-radius: 18px;
 }
+
+
+
+/* -------------- TEAM SECTION -------------- */
+.teams {
+    padding: 100px 190px 100px 190px;
+}
+
+.teams-text {
+    padding: 0px 195px 58px 195px;
+}
+
+.teams-img {
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.team {
+    position: relative;
+    width: fit-content;
+
+}
+
+.team img {
+    width: 326px;
+    height: 272px;
+    padding: 20px;
+}
+
+.team-desc {
+    text-align: left;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-80%, -20%);
+}
