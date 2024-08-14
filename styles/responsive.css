@@ -1,0 +1,20 @@
+@media screen and (max-width:576px) {
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner {
+        margin-left: 20px;
+        padding-right: 20px;
+    }
+    .habbits {
+        padding: 0px 28px 0px 28px;
+    }
+    
+    .habbit-text {
+        padding: 0px 10px 58px 10px;
+    }
+    .habbit-img {
+        flex-direction: column;
+    }
+}
