@@ -4,6 +4,7 @@
     margin: 0;
     font-family: Inter;
 }
+
 .font1 {
     color: rgb(250, 250, 249);
     font-size: 1.5rem;
@@ -24,6 +25,8 @@
 .btn-primary {
     margin-right: 15px;
     border-radius: 42px;
+    width: 224px;
+    height: 54px;
     border: none;
     padding: 16px 40px;
     background: rgb(230, 83, 60);
@@ -198,41 +201,81 @@ main {
 
 .habbits {
     /* background: #000000; */
-    padding: 100px 198px 100px 198px;
+    padding: 100px 190px 100px 190px;
 }
+
 .habbit-text {
     padding: 0px 186px 58px 186px;
 }
-.habbit-title {
+
+.section-title {
     color: rgb(255, 255, 255);
-font-size: 3rem;
-font-weight: 900;
-text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
 }
+
 .section-desc {
     color: rgba(255, 255, 255, 0.5);
-font-size: 0.9rem;
-font-weight: 400;
-text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
 }
+
 .img-desc {
     margin-right: 40px;
 }
+
 .habbit-img {
     display: flex;
     justify-content: center;
     align-items: baseline;
 }
+
 .habbit-img img {
     border-radius: 50%;
     padding: 0px 14px 14px 14px;
 }
+
 .img-title {
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 18px;
-font-weight: 600;
-line-height: 120%;
-letter-spacing: 0%;
-text-align: center;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+/* -------------- RUNS SECTION -------------- */
+.runs {
+    border-radius: 18px;
+    margin: 0px 190px 100px 190px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    gap: 165px;
+}
+
+.runs-text {
+    padding-top: 40px;
+    padding-left: 55px;
+}
+
+.runs .section-title {
+    text-align: left;
+    margin-bottom: 14px;
+}
+
+.runs .section-desc {
+    text-align: left;
+    margin-bottom: 34px;
+    line-height: 24px;
+}
+
+.runs-img {
+    padding: 30px 32px 30px 0px;
+}
+
+.runs-img img {
+    border-radius: 18px;
 }
