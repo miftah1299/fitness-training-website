@@ -1,4 +1,7 @@
 @media screen and (max-width: 576px) {
+    * {
+        box-sizing: border-box;
+    }
     .nav {
         margin: 0 20px;
     }
@@ -55,7 +58,6 @@
     #btn1,
     #btn2 {
         margin: 10px 0;
-        /* width: 100%; */
     }
 
     .habbits {
