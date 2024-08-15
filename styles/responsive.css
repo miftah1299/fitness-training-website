@@ -52,10 +52,12 @@
         margin-top: 20px;
     }
 
-    #btn1, #btn2 {
+    #btn1,
+    #btn2 {
         margin: 10px 0;
         /* width: 100%; */
     }
+
     .habbits {
         padding: 0px 28px 0px 28px;
     }
@@ -64,12 +66,16 @@
         padding: 0px 10px 58px 10px;
     }
 
+    .habbit-img .img-desc {
+        margin: 40px auto;
+    }
+
     .habbit-img {
         flex-direction: column;
     }
 
     .runs {
-        margin: 20px;
+        margin: 60px 20px;
         flex-direction: column;
         gap: 20px;
     }
@@ -80,6 +86,9 @@
 
     .runs-img {
         margin: 20px 0;
+    }
+    .runs-img {
+        margin: 0px 30px 30px 30px;
     }
 
     .teams {
