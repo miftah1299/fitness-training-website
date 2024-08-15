@@ -21,15 +21,15 @@
 
 .font3 {
     color: rgba(255, 255, 255, 0.65);
-    font-size: 13px;
+    font-size: 0.8rem;
     font-weight: 400;
 }
 
 .btn-primary {
     margin-right: 15px;
     border-radius: 42px;
-    width: 224px;
-    height: 54px;
+    width: 14rem;
+    height: 3.4rem;
     border: none;
     padding: 16px 40px;
     background: rgb(230, 83, 60);
@@ -78,7 +78,7 @@
     margin-top: 50px;
     color: rgb(230, 83, 60);
     font-family: Inter;
-    font-size: 36px;
+    font-size: 2rem;
     font-weight: 800;
     line-height: 120%;
     letter-spacing: 0%;
@@ -91,7 +91,7 @@
 }
 
 /* .nav-title {
-    font-size: 45px;
+    font-size: 2.8rem;
     font-weight: 800;
 } */
 nav ul {
@@ -112,7 +112,7 @@ nav li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     line-height: 120%;
     letter-spacing: 0%;
@@ -127,25 +127,17 @@ nav li a {
 }
 
 /* -------------- BANNER SECTION -------------- */
-.banner {
-    margin-left: 190px;
-    margin-right: 190px;
-    display: flex;
-    justify-content: space-between;
-}
+a
 
 .banner-text {
     margin-top: 90px;
-    width: 599.05px;
-    height: 440px;
-    left: 190px;
-    padding: 0px;
+    margin-bottom: 75px;
 }
 
 .banner-title {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 78px;
+    font-size: 4.8rem;
     font-weight: 900;
     line-height: 120%;
     text-align: left;
@@ -165,18 +157,14 @@ nav li a {
 }
 
 .banner-img {
-    /* position: relative; */
-    margin-top: 30px;
-    height: 100%;
+    margin-top: 25px;
 }
 
 #btn1 {
-    /* position: absolute; */
     margin-left: -70px;
     margin-top: -150px;
 }
 #btn2 {
-    /* position: absolute; */
     margin-top: -380px;
     margin-left: 220px;
 }

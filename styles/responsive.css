@@ -1,34 +1,120 @@
-@media screen and (max-width:576px) {
-    .banner, .runs {
-        flex-direction: column;
-    }
+@media screen and (max-width: 576px) {
     .nav {
-        margin-left: 20px;
+        margin: 0 20px;
     }
+
+    .fa-solid.fa-bars {
+        display: block;
+        color: white;
+        cursor: pointer;
+    }
+
     .nav-links {
         display: none;
+        flex-direction: column;
+        width: 100%;
     }
-    .fa-solid.fa-bars {
-        margin: 23px 23px 0px 180px;
-        display: inline;
-        color: white;
+
+    .nav-links li {
+        margin: 10px 0;
     }
+
     .banner {
         margin-left: 20px;
-        padding-right: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .banner-text {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .banner-title {
+        font-size: 2.5rem;
+    }
+
+    .banner-desc {
+        font-size: 0.9rem;
+    }
+
+    .btn-primary {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .banner-img {
+        margin-top: 20px;
+    }
+
+    #btn1, #btn2 {
+        margin: 10px 0;
+        /* width: 100%; */
     }
     .habbits {
         padding: 0px 28px 0px 28px;
     }
-    
+
     .habbit-text {
         padding: 0px 10px 58px 10px;
     }
+
     .habbit-img {
         flex-direction: column;
     }
-    #btn2 {
-        bottom: 10px;
-        right: 140px;
+
+    .runs {
+        margin: 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .runs-text {
+        padding: 20px;
+    }
+
+    .runs-img {
+        margin: 20px 0;
+    }
+
+    .teams {
+        padding: 20px;
+    }
+
+    .teams-text {
+        padding: 0 10px 20px 10px;
+    }
+
+    .teams-img {
+        grid-template-columns: 1fr;
+    }
+
+    .team img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-container {
+        padding: 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-main {
+        width: 100%;
+    }
+
+    hr {
+        margin: 0 20px;
+    }
+
+    .footer-right {
+        padding: 20px 0;
+        font-size: 1rem;
     }
 }
