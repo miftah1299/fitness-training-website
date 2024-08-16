@@ -2,12 +2,16 @@
 
 * {
     margin: 0;
+    /* padding: 0; */
+    /* box-sizing: border-box; */
     font-family: Inter;
 }
+
 .fa-solid.fa-bars {
     display: none;
     /* color: white; */
 }
+
 .font1 {
     color: rgb(250, 250, 249);
     font-size: 1.5rem;
@@ -71,7 +75,7 @@
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    margin: 0px 200px; 
+    margin: 0px 200px;
 }
 
 .logo {
@@ -171,6 +175,7 @@ nav li a {
     margin-left: -70px;
     margin-top: -150px;
 }
+
 #btn2 {
     /* position: absolute; */
     margin-top: -380px;
@@ -192,7 +197,6 @@ main {
     background: #000000;
 }
 
-
 .habbits {
     padding: 100px 190px 100px 190px;
 }
@@ -205,6 +209,7 @@ main {
     color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
+    margin-bottom: 14px;
     text-align: center;
 }
 
@@ -256,7 +261,6 @@ main {
 
 .runs .section-title {
     text-align: left;
-    margin-bottom: 14px;
 }
 
 .runs .section-desc {
@@ -264,33 +268,41 @@ main {
     margin-bottom: 34px;
     line-height: 24px;
 }
+
 .runs .btn-primary {
     margin-bottom: 40px;
 }
+
 .runs-img {
     margin: 30px 32px 30px 0px;
     /* padding: 30px 32px 30px 0px; */
-    overflow: hidden; 
+    overflow: hidden;
     border-radius: 18px;
 }
 
 .runs-img img {
     /* padding: 30px 32px 30px 0px; */
-    width: 100%; 
-    height: 100%; 
+    width: 100%;
+    height: 100%;
     transform: scale(3);
-transform-origin: 70% 30%;
+    transform-origin: 70% 30%;
 }
+
 
 
 
 /* -------------- TEAM SECTION -------------- */
 .teams {
-    padding: 100px 190px 100px 190px;
+    padding: 0px 190px 90px 190px;
 }
 
 .teams-text {
     padding: 0px 195px 58px 195px;
+}
+
+.team {
+    position: relative;
+    width: fit-content;
 }
 
 .teams-img {
@@ -298,27 +310,32 @@ transform-origin: 70% 30%;
     background: rgba(255, 255, 255, 0.1);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-}
-
-.team {
-    position: relative;
-    width: fit-content;
-
-}
-
-.team img {
-    width: 326px;
-    height: 272px;
+    gap: 20px;
     padding: 20px;
+    margin: 20px;
+}
+
+.teams-img img {
+    width: 335px;
+    height: 272px;
+    border-radius: 18px;
 }
 
 .team-desc {
-    text-align: left;
     position: absolute;
     top: 80%;
     left: 40%;
     transform: translate(-80%, -20%);
 }
+
+.team .img-title {
+    text-align: left;
+}
+
+.team .section-desc {
+    text-align: left;
+}
+
 
 
 
@@ -351,7 +368,7 @@ transform-origin: 70% 30%;
     text-align: left;
 }
 
-.section-desc {
+.footer .section-desc {
     text-align: left;
 }
 
