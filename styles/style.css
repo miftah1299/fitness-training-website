@@ -33,6 +33,11 @@
     font-weight: 400;
 }
 
+.font4 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 .btn-primary {
     margin-right: 15px;
     border-radius: 42px;
@@ -293,6 +298,100 @@ main {
     height: 100%;
     transform: scale(3);
     transform-origin: 70% 30%;
+}
+
+
+
+
+/* -------------- BMI SECTION -------------- */
+.bmi {
+    /* padding: 0px 190px 100px 190px; */
+}
+
+.bmi-calculator {
+    display: flex;
+    margin-top: 50px;
+    padding: 40px 190px 100px 190px;
+    background: rgb(34, 34, 34);
+}
+
+table {
+    margin-top: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    width: 310px;
+    height: 216px;
+    padding: 20px;
+}
+
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bmi-input {
+    border-radius: 8px;
+
+/* background: rgba(255, 255, 255, 0.1); */
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.bmi-input h4 {
+    color: rgb(230, 83, 60);
+    font-family: Inter, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.bmi-input .input {
+    margin-bottom: 15px;
+}
+
+.bmi-input label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.bmi-input input[type="text"],
+.bmi-input select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+}
+
+.bmi-input input[type="text"]::placeholder,
+.bmi-input select::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.bmi-input input[type="text"]:focus,
+.bmi-input select:focus {
+    border-color: rgb(230, 83, 60);
+}
+
+.bmi-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    /* background: rgb(230, 83, 60); */
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    /* transition: background 0.3s ease; */
 }
 
 
