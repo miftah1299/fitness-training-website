@@ -133,6 +133,9 @@
 
     .bmi-calculator {
         flex-direction: column;
+        padding: 40px 20px;
+        gap: 40px;
+        /* top right bottom left */
     }
 
 
